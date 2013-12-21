@@ -8,7 +8,7 @@
 
 	<?php echo Template::message(); ?>
 
-	<?php
+	<?php 
 		if (validation_errors()) :
 	?>
 	<div class="row-fluid">
