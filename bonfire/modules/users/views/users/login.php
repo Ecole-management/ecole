@@ -4,7 +4,9 @@
 <p><br/><a href="<?php echo site_url(); ?>">&larr; <?php echo lang('us_back_to') . $this->settings_lib->item('site.title'); ?></a></p>
 
 <div id="login">
-	<h2><?php echo lang('us_login'); ?></h2>
+	<h2>
+		<?php echo lang('us_login'); ?>
+	</h2>
 
 	<?php echo Template::message(); ?>
 
